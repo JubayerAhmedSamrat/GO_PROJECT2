@@ -21,7 +21,7 @@ func main() {
 	var number4 string = string(number3)
 	fmt.Printf(" Number4 int to string, ASCII value -> Value = %v, Type = %T", number4, number4)
 
-	var number5 string = strconv.Itoa(number3)
-	fmt.Printf(" Number5 ASCII to English -> value = %v, Type = %T", number5, number5)
+	var number6 string = strconv.Itoa(number3)
+	fmt.Printf(" Number6*(Atoi -> string to int) Value = %v, Type = %T", number6, number6)
 
 }
